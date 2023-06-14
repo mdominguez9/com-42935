@@ -264,17 +264,3 @@ footer {
     }
    
 
-
-.mail{
-    grid-area: mail;
-}
-.telef{
-    grid-area: telefono
-}
-.marcapais{
-    grid-area: marcaarg;    
-}
-.logoapn2{
-    grid-area: logo;
-}
-
