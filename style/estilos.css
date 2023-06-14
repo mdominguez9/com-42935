@@ -16,10 +16,7 @@ main div{
     
     }
 
-.navbar-brand{
 
-
-}
 
 .container-fluid-nav{
     background-color: rgb(3, 63, 3);
@@ -45,8 +42,8 @@ main div{
     }
     }
 
-.carousel-inner{
-padding: 10px;
+.carousel{
+padding-bottom: 10px;
 
 }
 
@@ -66,6 +63,9 @@ a:hover{
 .container-fluid-main {
     align-items: center;
     
+}
+.container-fluid-mapas {
+    align-items: center;
 }
 .col-lg-6{
     padding: 10px;
@@ -263,5 +263,3 @@ footer {
   align-items: center;
 
     }
-   
-
