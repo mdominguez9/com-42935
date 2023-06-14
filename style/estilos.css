@@ -5,7 +5,7 @@
 
 html{
     font-family: 'Signika', sans-serif;}
-#tdf{font-family: 'Signika', sans-serif}
+#tdf{font-family: 'Signika', sans-serif;}
 
 main div{
     display: flex;
@@ -18,15 +18,43 @@ main div{
 
 .navbar-brand{
 
+
+}
+
+.container-fluid-nav{
+    background-color: rgb(3, 63, 3);
+    border-style: groove 3px;
 }
 .container2{
     position: relative;
 }
 
-.container-fluid-tit{
-align-items: center;
+.titulo{
+    display:flex;
+    flex-direction: row;
+}
+    @media (max-width: 576px) { 
+    h1{ width:70%
+    }
+    #logoapntitulo{ 
+        width: 50%;
+        height: auto;
+  
+  object-fit: cover;
+  object-position: bottom;
+    }
+    }
+
+.carousel-inner{
+padding: 10px;
 
 }
+
+#logoapntitulo{
+    flex-basis:auto;
+    position: relative;
+}
+
 .anav-linkctive{
     text-decoration: underline;
     text-shadow: 30%;
@@ -80,17 +108,23 @@ a:hover{
 .listalogos{
 display: flex;
 flex-direction: row;
-justify-content: right;
+justify-content:center;
 list-style: none;
+margin: 0;
+padding: 0;
+
+
+@media (min-width; 576px)
+
 
 
 
 }
 
 .listalogos img{
-    width: 150px;
-    padding: 5px;
-
+    width: clamp(6.5rem, 12vw, 11rem) ;
+    padding: 10px;
+    margin: 0;
 }
 
   
@@ -219,13 +253,28 @@ font-weight: 300;
 }
 
 footer {
+  display:flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+
+    }
    
-    background-color: aliceblue;
-    margin: 20px;
-    align-content: center;
-    padding: 20px;
-   
+
+
+.mail{
+    grid-area: mail;
 }
-
-
+.telef{
+    grid-area: telefono
+}
+.marcapais{
+    grid-area: marcaarg;    
+}
+.logoapn2{
+    grid-area: logo;
+}
 
