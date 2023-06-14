@@ -15,7 +15,16 @@ main div{
     flex-wrap: wrap;
     
     }
-.nav-item{
+
+.navbar-brand{
+
+}
+.container2{
+    position: relative;
+}
+
+.container-fluid-tit{
+align-items: center;
 
 }
 .anav-linkctive{
@@ -88,19 +97,15 @@ list-style: none;
 
 
 #encabezado{
-    display: flex;
-    padding-bottom: 20px;
+        padding-bottom: 20px;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 45px;
     margin-top: 30px;
     margin-left: 10px;
-    width: 40;
-    display: flex;
     text-align: left;
-    align-items: center;
-      
+       
     }
 
 
@@ -109,17 +114,7 @@ h2{font-size: 30px;
     margin-left: 10px;
     }
     
-
-
-.imagenesparques li{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding-inline: 5px;
-    text-align: center;}
-    
-
-    
+  
 
    
 h3{     color:white;
