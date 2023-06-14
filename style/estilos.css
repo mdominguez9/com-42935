@@ -112,13 +112,6 @@ justify-content:center;
 list-style: none;
 margin: 0;
 padding: 0;
-
-
-@media (min-width; 576px)
-
-
-
-
 }
 
 .listalogos img{
@@ -206,6 +199,14 @@ h3{     color:white;
     "huapi glaciares"; 
   width: 100%; 
   height: 100%; 
+  @media (max-width:576px) 
+  {
+    .imagenesparques{ 
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
   
 
 }
