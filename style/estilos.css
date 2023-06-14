@@ -198,7 +198,7 @@ h3{     color:white;
     "lanin tdf"
     "huapi glaciares"; 
   width: 100%; 
-  height: 100%; 
+  height: 100%;} 
   @media (max-width:576px) 
   {
     .imagenesparques{ 
@@ -209,7 +209,7 @@ h3{     color:white;
   }
   
 
-}
+
 
 .imagenlanin{
     grid-area: lanin;
