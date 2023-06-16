@@ -257,13 +257,18 @@ font-size: large;
 font-weight: 300;
 }
 
-footer {
-  display:flex;
-  flex-direction: column;
+footer{
+  
   background-color: aliceblue;
   margin: 20px;
-  padding: 20px;
-  justify-content: center;
   align-items: center;
-
+  text-align: center;
+    
     }
+footer ul{
+
+    place-items: center;
+    gap: 20px;
+    
+}
+    
