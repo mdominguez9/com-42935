@@ -13,13 +13,14 @@ main div{
     flex-direction:row;
     padding-bottom: 50px;
     flex-wrap: wrap;
+
     
     }
 
 
 
-.container-fluid-nav{
-    background-color: rgb(3, 63, 3);
+.container-fluid{
+    background-color:aliceblue;
     border-style: groove 3px;
 }
 .container2{
@@ -260,7 +261,6 @@ font-weight: 300;
 footer{
   
   background-color: aliceblue;
-  margin: 20px;
   align-items: center;
   text-align: center;
     
