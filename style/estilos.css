@@ -126,12 +126,22 @@ padding: 0;
     width: clamp(6.5rem, 12vw, 11rem) ;
     padding: 10px;
     margin: 0;
-
     
+}
+@media (max-width:576px)
+  {
+.listalogos{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    margin:25px;    
+}
+.listalogos img{
+    width: 170px;
     
 }
 
-  
+  }
 
 
 #encabezado{
