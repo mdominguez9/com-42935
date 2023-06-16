@@ -117,12 +117,18 @@ justify-content:center;
 list-style: none;
 margin: 0;
 padding: 0;
+
+
 }
 
 .listalogos img{
+    
     width: clamp(6.5rem, 12vw, 11rem) ;
     padding: 10px;
     margin: 0;
+
+    
+    
 }
 
   
