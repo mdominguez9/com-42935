@@ -263,12 +263,17 @@ footer{
   background-color: aliceblue;
   align-items: center;
   text-align: center;
+
+  
+    
     
     }
 footer ul{
-
+    margin-top: 15px;
     place-items: center;
     gap: 20px;
     
 }
+
+
     
