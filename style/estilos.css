@@ -220,11 +220,14 @@ h3{     color:white;
     }
 }
 ----------------------------------------------
-mapas
 
-.mapaydescripcion{
-    border: 10px grey solid;
+
+.mapas {
+    display: flex;
+    flex-direction: row;
 }
+
+
      
 
 
@@ -308,9 +311,6 @@ footer{
   background-color: aliceblue;
   align-items: center;
   text-align: center;
-
-  
-    
     
     }
 footer ul{
