@@ -93,10 +93,6 @@ padding-bottom: 10px;
 
 }
 
-#logoapntitulo{
-    flex-basis:auto;
-    position: relative;
-}
 
 .anav-linkctive{
     text-decoration: underline;
@@ -113,9 +109,7 @@ a:hover{
 .container-fluid-mapas {
     align-items: center;
 }
-.col-lg-6{
-    padding: 10px;
-}
+
 
 
 
