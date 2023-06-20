@@ -123,7 +123,7 @@ a:hover{
 #fuegobody{
     background-image: url(../img/background/tierradelfuegoback.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
     position: relative;
 }
 
@@ -194,7 +194,7 @@ h3{     color:white;
     }
 
 
---------------------------------------------
+
 .paginasparques {
     display: flex;
     flex-direction: row;
@@ -214,19 +214,35 @@ h3{     color:white;
         flex-direction: column;
         }
     
-        #textospn{
+        #textos{
         width:100% !important;
         font-size: 13px;
     }
 }
-----------------------------------------------
-
 
 .mapas {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
 }
 
+.textomapas{
+    font-size:larger;
+    }
+@media (max-width:576px) 
+{ .mapas{
+    display:flex;
+    flex-direction: column;
+    
+    
+    }
+    .textomapas{
+    font-size: medium;
+    }
+    
+}
 
      
 
