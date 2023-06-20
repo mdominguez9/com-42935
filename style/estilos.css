@@ -36,14 +36,15 @@ html{
   overflow: hidden;
   width: 100%;
   height: 100%;
-  padding-top: 56.25%;      
+  padding-top: 56.25%;  
+  aspect-ratio: 16/9    
     
 }
 
 .videoapn iframe{
  position: absolute;
  top: 0;
- left: 0;                                                                                               
+ left: 2px;                                                                                               
  bottom: 0;
  right: 0;
  width: 100%;
@@ -55,25 +56,9 @@ html{
     width: 46%;                
 }
 
-videos parques
-
-.textoyvideoparques{
-    display: flex;
-    flex-direction: row;
 
 
-}
-
-   
- 
-    
-
-
-
-
-  
-
-.titulo{
+.titulos{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -81,8 +66,9 @@ videos parques
     @media (max-width: 576px) { 
     h1{ width:70%;
         align-self: auto;
-        font-size: 35px !important;
+        font-size: 25px !important;
     }
+
     #logoapntitulo{ 
         width: 50%;
         height: 50%;
@@ -94,9 +80,9 @@ videos parques
     }
 
 .carousel{
-padding-bottom: 10px;
+padding-bottom: 10px;}
 
-}
+
 
 
 .anav-linkctive{
@@ -173,7 +159,7 @@ padding: 0;
 }
 .listalogos img{
     width: 150px;
-margin: 0;}
+    margin: 0;}
    }
 
 #encabezado{
@@ -182,21 +168,25 @@ margin: 0;}
 
 h1{
     font-size: 45px;
-    margin-top: 30px;
     margin-left: 10px;
     text-align: left;
+           
        
     }
-
+    @media (max-width:576px) {
+  
+  
+    }
+    #logopag{
+        width: 130px;
+    }
 
 h2{font-size: 30px;
     text-align: left;
     margin-left: 10px;
     }
     
-  
-
-   
+     
 h3{     color:white;
         background-color:rgb(26, 105, 86);
         padding: 10px 15px;
@@ -204,25 +194,43 @@ h3{     color:white;
     }
 
 
-
+--------------------------------------------
 .paginasparques {
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
-
+    align-items: center;
 }
 #textospn
 {
-    font-family: 'Signika', sans-serif;
-    font-size:20px ;
-    font-weight: 500;
     padding: 3%;
-    text-align: center;
-    width: 500px;
     justify-content: center;
+
 }
-   
+@media (max-width:576px) {
+    .paginasparques{
+        display:flex;
+        flex-direction: column;
+        }
+    
+        #textospn{
+        width:100% !important;
+        font-size: 13px;
+    }
+}
+----------------------------------------------
+mapas
+
+.mapaydescripcion{
+    border: 10px grey solid;
+}
+     
+
+
+
+
+
 
 
 .carrouselparques{
