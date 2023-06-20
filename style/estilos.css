@@ -25,7 +25,8 @@ html{
         
     }
     .textoindex{
-        width:100% !important
+        width:100% !important;
+        font-size: 13px;
     }
   
     }
@@ -42,7 +43,7 @@ html{
 .videoapn iframe{
  position: absolute;
  top: 0;
- left: 0;
+ left: 0;                                                                                               
  bottom: 0;
  right: 0;
  width: 100%;
@@ -51,77 +52,26 @@ html{
 }
 .textoindex{
     padding: 5px;
-    width: 46%;
-                 
-}
------------
-
-.textovideoparques{
-display: flex;
-flex-direction: row;
-align-items:center;
-padding-bottom: 20px;
-
+    width: 46%;                
 }
 
-@media (max-width:576px) {
-.textovideoparques{
- display:flex;
- flex-direction: column;}
+videos parques
 
-.videos-parques{
-padding-top: 10px;
-aspect-ratio: 16/9;}
-        
-.texto-parques{
- width:100% !important}
-
-}
-
-.videos-parques{
-    position: relative;
-    padding-top: 56.25%;}
-
-.videos-parques iframe{
-
-}
-.textoindex{
-    padding: 5px;
-    width: 46%;}
-
-
-
------------------
-.mapaydescripcion{
-display: flex;
-flex-direction: row;
-
-
-   
-     }
-.mapas{
+.textoyvideoparques{
     display: flex;
     flex-direction: row;
+
+
 }
 
-.textomapa{
-       font-size: ;}
-        @media(max-width:576p)
    
-   
+ 
     
-       
-        
-       
-       
---------------------
-.container-fluid{
-    background-color:aliceblue;
-    border-style: groove 3px;
-}
-.container2{
-    position: relative;
-}
+
+
+
+
+  
 
 .titulo{
     display:flex;
@@ -161,10 +111,6 @@ a:hover{
     align-items: center;
     
 }
-.
-
-
-
 
 #cuerpo{
     position: absolute}
@@ -179,7 +125,7 @@ a:hover{
 #huapibody{
     background-image:url(../img/background/huapiback.jpg);
     background-repeat: no-repeat;
-    background-size:contain
+    background-size:cover
 }
 
 #glaciarbody{
@@ -229,9 +175,6 @@ padding: 0;
     width: 150px;
 margin: 0;}
    }
-
-
-
 
 #encabezado{
         padding-bottom: 20px;
