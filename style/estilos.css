@@ -1,19 +1,14 @@
 *{
     padding: 0;
-    margin: 0;
-}
-
+    margin: 0;}
 html{
     font-family: 'Signika', sans-serif;}
 #tdf{font-family: 'Signika', sans-serif;}
-
 .tituloyvideo{
     display: flex;
     flex-direction: row;
     align-items:center;
-    padding-bottom: 20px;
-    }
-
+    padding-bottom: 20px;}
    @media (max-width:576px) {
     .tituloyvideo{
         display:flex;
@@ -26,25 +21,18 @@ html{
     }
     .textoindex{
         width:100% !important;
-        font-size: 13px;
-    }
-  
-    }
-
+        font-size: 13px;} }
 .videoapn{
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
   padding-top: 56.25%;  
-  aspect-ratio: 16/9    
-    
-}
-
+  aspect-ratio: 16/9}
 .videoapn iframe{
  position: absolute;
  top: 0;
- left: 2px;                                                                                               
+ left:2px;                          
  bottom: 0;
  right: 0;
  width: 100%;
@@ -53,204 +41,124 @@ html{
 }
 .textoindex{
     padding: 5px;
-    width: 46%;                
-}
-
-
-
+    width: 46%;}
 .titulos{
     display:flex;
     flex-direction: row;
-    align-items: center;
-}
+    align-items: center;}
     @media (max-width: 576px) { 
     h1{ width:70%;
         align-self: auto;
-        font-size: 25px !important;
-    }
-
+        font-size: 25px !important;}
     #logoapntitulo{ 
         width: 50%;
         height: 50%;
         align-self: auto;
-  
-  object-fit:scale-down;
-
+        object-fit:scale-down;}
     }
-    }
-
 .carousel{
 padding-bottom: 10px;}
 
-
-
-
-.anav-linkctive{
+.nav-linkactive{
     text-decoration: underline;
-    text-shadow: 30%;
-}
+    text-shadow: 30%;}
 a:hover{
-    text-decoration: underline;
-}
-
+    text-decoration: underline;}
 .container-fluid-main {
-    align-items: center;
-    
-}
-
+    align-items: center;}
 #cuerpo{
     position: absolute}
-
 #laninbody{
     background-image:url(../img/background/laninback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-        }
-
+    position: relative;}
 #huapibody{
     background-image:url(../img/background/huapiback.jpg);
     background-repeat: no-repeat;
-    background-size:cover
-}
-
+    background-size:cove}
 #glaciarbody{
     background-image: url(../img/background/losglaciaresback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
+    position: relative;}
 #fuegobody{
     background-image: url(../img/background/tierradelfuegoback.jpg);
     background-repeat: no-repeat;
     background-size:auto;
-    position: relative;
-}
-
-
-        
-      
+    position: relative;}     
 .listalogos{
 display: flex;
 flex-direction: row;
 justify-content:center;
 list-style: none;
 margin: 0;
-padding: 0;
-
-
-}
-
+padding: 0;}
 .listalogos img{
     
     width: clamp(6.5rem, 12vw, 11rem) ;
     padding: 10px;
-    margin: 0;
-    
-}
-@media (max-width:576px)
-  {
+    margin: 0;}
+@media (max-width:576px){
 .listalogos{
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     margin:0px;
-    padding:0px    
-}
+    padding:0px}
 .listalogos img{
     width: 150px;
     margin: 0;}
-   }
-
-#encabezado{
-        padding-bottom: 20px;
 }
-
+#encabezado{
+        padding-bottom: 20px;}
 h1{
     font-size: 45px;
     margin-left: 10px;
-    text-align: left;
-           
-       
-    }
-    @media (max-width:576px) {
-  
-  
-    }
+    text-align: left;}
+    @media (max-width:576px){
     #logopag{
-        width: 130px;
-    }
-
+        width: 130px;}
 h2{font-size: 30px;
     text-align: left;
     margin-left: 10px;
-    }
-    
-     
+    }}
 h3{     color:white;
         background-color:rgb(26, 105, 86);
-        padding: 10px 15px;
-       
-    }
-
-
-
+        padding: 10px 15px;}
 .paginasparques {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    align-items: center;
-}
+    align-items: center;}
 #textospn
 {
     padding: 3%;
-    justify-content: center;
-
-}
+    justify-content: center;}
 @media (max-width:576px) {
     .paginasparques{
         display:flex;
-        flex-direction: column;
-        }
-    
+        flex-direction: column;}
         #textos{
         width:100% !important;
-        font-size: 13px;
+        font-size: 13px;}
     }
-}
-
 .mapas {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    margin: 10px;
-}
-
+    margin: 10px;}
 .textomapas{
-    font-size:larger;
-    }
+    font-size:larger;}
 @media (max-width:576px) 
 { .mapas{
     display:flex;
-    flex-direction: column;
-    
-    
-    }
+    flex-direction: column; }
     .textomapas{
-    font-size: medium;
-    }
-    
+    font-size: medium;}  
 }
-
-     
-
-
-
-
-
-
 
 .carrouselparques{
     display:flex;
@@ -267,7 +175,6 @@ h3{     color:white;
     color: black;
     text-shadow: 2px black;
 }
-
 .imagenesparques{
     display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -283,13 +190,8 @@ h3{     color:white;
   {
     .imagenesparques{ 
         display: flex;
-        flex-direction: column;
-    }
-    
-  }
-  
-
-
+        flex-direction: column;}
+}
 
 .imagenlanin{
     grid-area: lanin;
@@ -303,37 +205,29 @@ h3{     color:white;
 .imagentierrafuego{
     grid-area: tdf;
 }
-
 .lanin-img, .huapi-img, .glaciar-img, .fuego-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-       
-      
+}             
 h4{ 
     font-size:larger;
     color: black;
     text-align: center;
    }
-
 h5{
 font-size: large;
 font-weight: 300;
 }
-
-footer{
-  
+footer{ 
   background-color: aliceblue;
   align-items: center;
   text-align: center;
-    
     }
 footer ul{
     margin-top: 15px;
     place-items: center;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 
 
