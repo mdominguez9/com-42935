@@ -96,16 +96,34 @@ margin: 0;
 padding: 0;}
 .listalogos img{
     
-    width: clamp(6.5rem, 12vw, 11rem) ;
+    width: clamp(6.5rem, 13vw, 11rem) ;
     padding: 10px;
     margin: 0;}
+
+#logolistalanin{
+    grid-area: laglan;
+}
+#logolistahuapi{
+    grid-area: loghua;
+}
+#logolistaglaciar{
+    grid-area: loggla;
+}
+#logolistatierradf{
+    grid-area: logtdf;
+}
 @media (max-width:576px){
-.listalogos{
+
+    .listalogos{
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     margin:0px;
-    padding:0px}
+    padding:0px;
+    grid-template-areas: 
+    "loglan loghua"
+    "loggla logtdf"; }
+
 .listalogos img{
     width: 150px;
     margin: 0;}
@@ -190,9 +208,7 @@ h3{     color:white;
   {
     .imagenesparques{ 
         display: flex;
-        flex-direction: column;}
-}
-
+        flex-direction: column;}}
 .imagenlanin{
     grid-area: lanin;
 }
