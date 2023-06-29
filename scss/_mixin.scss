@@ -1,0 +1,5 @@
+@mixin mapas ($width,$height,$m-top) {
+    width: $width;
+    height: $height;
+    margin-top: $m-top;
+} 

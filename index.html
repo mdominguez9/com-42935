@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta desc y kw -->
+    <meta name="description" content="Descubre los Parques Nacionales mas interesantes de la region patagónica, su ubicacion y algunas imagenes para que puedas soñar con visitarlos">
+    <meta name="keywords" content="parques nacionales,Patagonia,Parques en la patagonia, asociacion parques nacionales, Asociacion parques Nacionales, APN,">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/estilos.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/apnicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +16,7 @@
     <title>Pagina APN</title>
 </head>
 <body>
+  <!--inicio header -->
   <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -37,17 +41,17 @@
             <div class="navbar-text">
             <div class="container-md">
               <ul class="listalogos">        
-                <li id="logolistalanin"><a href="./paginas/lanin.html"><img src="./img/logolanin.png" alt=""></a></li>
-                <li id="logolistahuapi"><a href="./paginas/nahuelhuapi.html"><img src="./img/emblema_-_pn_nahuel_huapi.png"alt=""></a></li>
-                <li id="logolistaglaciar"><a href="./paginas/losglaciares.html"><img src="./img/logolosglaciares.png" alt=""></a></li>
-                <li id="logolistatierradf"><a href="./paginas/tierradelfuego.html"><img src="./img/pntierradelfuegologo.png" alt=""></a></li>
+                <li class="logolistalanin"><a href="./paginas/lanin.html"><img src="./img/logolanin.png" alt=""></a></li>
+                <li class="logolistahuapi"><a href="./paginas/nahuelhuapi.html"><img src="./img/emblema_-_pn_nahuel_huapi.png"alt=""></a></li>
+                <li class="logolistaglaciar"><a href="./paginas/losglaciares.html"><img src="./img/logolosglaciares.png" alt=""></a></li>
+                <li class="logolistatierradf"><a href="./paginas/tierradelfuego.html"><img src="./img/pntierradelfuegologo.png" alt=""></a></li>
               </ul>
               </div>
-          </div>
-        </div>
-        </nav>   
-      </header>     
-
+            </div>
+            </div>
+            </nav>   
+            </header>     
+          <!-- fin nav - comienzo titulos -->
         <div class="titulos">
          <img id="logoapntitulo" src="./img/logoapn.jpg" class="img-thumbnail" alt="...">
          <h1>Parques Nacionales <br/> 
@@ -66,6 +70,7 @@
       </div>                 
     </main>
 </div>
+<!-- carrusel index -->
 <section class="carrousel">
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
@@ -114,24 +119,26 @@
   </button>
 </div> 
 </section>
-<div>
-        <section class="imagenesparques"> 
-    <div class="imagen lanin">
+
+  
+   <section class="imagenesparques"> 
+    <div class="imagen-lanin">
         <a href="./paginas/lanin.html"><img class="lanin-img" src="./img/imgvolcanlanin.jpg" alt=""></a>
         <h5>Parque Nacional Lanín, Neuquen</h5>
     </div>
-    <div class="imagen huapi">
+    <div class="imagen-huapi">
         <a href="./paginas/nahuelhuapi.html"><img class="huapi-img" src="./img/nahuelhuapi.jpg" alt=""></a>
         <h5>Parque Nacional Nahuel Huapi, Rio Negro</h5>
     </div>
-    <div class="imagen glaciares">
+    <div class="imagen-glaciares">
         <a href="./paginas/losglaciares.html"><img class="glaciar-img" src="./img/losglaciares.png" alt=""></a>
         <h5>Parque Nacional Los Glaciares, Santa Cruz</h5>
     </div>
-    <div class="imagen tierrafuego">
+    <div class="imagen-tierrafuego">
         <a href="./paginas/tierradelfuego.html"><img class="fuego-img" src="./img/pntierradelfuego.jpg" alt=""></a> <h5>Parque Nacional Tierra del fuego, Tierra del fuego</h5>
     </div>
-</section>
+  </section>
+<!-- fin grids/ footer -->
 <footer class="piedepaginamain">
   <ul class="nav justify-content-center">  
     <li class="nav-item">                   
