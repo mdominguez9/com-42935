@@ -11,18 +11,18 @@
         padding: 10px;
         margin: 0;}
         }
-    #logolistalanin{
-        grid-area: laglan;
-    }
-    #logolistahuapi{
+
+    
+    .logolistahuapi{
         grid-area: loghua;
     }
-    #logolistaglaciar{
+    .logolistaglaciar{
         grid-area: loggla;
     }
-    #logolistatierradf{
+    .logolistatierradf{
         grid-area: logtdf;
     }
+    
     @media (max-width:576px){
     
         .listalogos{
@@ -34,8 +34,7 @@
         grid-template-areas: 
         "loglan loghua"
         "loggla logtdf"; }
-    
-    .listalogos img{
+    img{
         width: 150px;
         margin: 0;}
     }
