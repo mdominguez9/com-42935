@@ -86,20 +86,13 @@
 
     #laninbody{
         background-image:url(../img/background/laninback.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;}
+        @extend %bodypags}
     #huapibody{
         background-image:url(/img/background/huapiback.jpg);
-        background-repeat: no-repeat;
-        background-size:cover}
+        @extend %bodypags}
     #glaciarbody{
         background-image: url(../img/background/losglaciaresback.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;}
+        @extend %bodypags}
     #fuegobody{
         background-image: url(../img/background/tierradelfuegoback.jpg);
-        background-repeat: no-repeat;
-        background-size:auto;
-        position: relative;}  
+        @extend %bodypags}

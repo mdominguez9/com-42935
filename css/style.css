@@ -39,6 +39,11 @@ h3 {
   font-style: italic;
 }
 
+#fuegobody, #glaciarbody, #huapibody, #laninbody {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .tituloyvideo {
   display: flex;
   flex-direction: row;
@@ -144,29 +149,18 @@ h3 {
 
 #laninbody {
   background-image: url(../img/background/laninback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 #huapibody {
   background-image: url(/img/background/huapiback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #glaciarbody {
   background-image: url(../img/background/losglaciaresback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 #fuegobody {
   background-image: url(../img/background/tierradelfuegoback.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  position: relative;
 }
 
 .listalogos {
