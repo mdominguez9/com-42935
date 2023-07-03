@@ -1,5 +1,5 @@
 footer{ 
-    background-color: $cl-navfoot_3;
+    background-color: nth($colores, 1);
     align-items: center;
     text-align: center;}
     .footcolor1{
@@ -14,9 +14,6 @@ footer{
     .footcolor4{
       background-color: nth($colores, 5);
     }
-
-
-
 ul{
       margin-top: 15px;
       place-items: center;
