@@ -219,7 +219,7 @@ ul {
 }
 .listalogos li:hover {
   transition: all 1.1s;
-  transform: scale(1.4);
+  transform: scale(1.5);
 }
 .listalogos img {
   width: clamp(6.5rem, 10vw, 11rem);
