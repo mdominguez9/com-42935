@@ -33,7 +33,9 @@
 
 .textoindex{
     padding: 5px;
-    width: 46%;}
+    width: 46%;
+    @extend %textosin
+}
 .titulos{
     display:flex;
     flex-direction: row;

@@ -1,9 +1,8 @@
 .googlemapa{
-    @include mapas(100%, 500px,100px);
+    @include mapas(100%, 500px,20px);
 }
-%orden{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-};
+.textomapas{
+    @extend %org
+    
+
+}
