@@ -6,6 +6,28 @@ html {
   font-family: "Signika", sans-serif;
 }
 
+h1 {
+  font-size: 45px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  #logopag {
+    width: 130px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+h3 {
+  color: white;
+  background-color: rgb(26, 105, 86);
+  padding: 10px 15px;
+}
+
 .tituloyvideo {
   display: flex;
   flex-direction: row;
@@ -109,6 +131,33 @@ html {
   object-fit: cover;
 }
 
+#laninbody {
+  background-image: url(../img/background/laninback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#huapibody {
+  background-image: url(/img/background/huapiback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#glaciarbody {
+  background-image: url(../img/background/losglaciaresback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#fuegobody {
+  background-image: url(../img/background/tierradelfuegoback.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
 .listalogos {
   display: flex;
   flex-direction: row;
@@ -118,8 +167,8 @@ html {
   padding: 0;
 }
 .listalogos img {
-  width: clamp(10rem, 13vw, 11rem);
-  padding: 10px;
+  width: clamp(6.5rem, 10vw, 11rem);
+  padding: 3px;
   margin: 0;
 }
 
@@ -149,6 +198,19 @@ html {
     margin: 0;
   }
 }
+.nav-linkactive {
+  text-decoration: underline;
+  text-shadow: 30%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container-fluid-main {
+  align-items: center;
+}
+
 .googlemapa {
   width: 100%;
   height: 500px;
@@ -165,6 +227,12 @@ ul {
   margin-top: 15px;
   place-items: center;
   gap: 20px;
+}
+
+.carrousel {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

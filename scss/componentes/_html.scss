@@ -1,3 +1,18 @@
 html{
     font-family: 'Signika', sans-serif;}
 #tdf{font-family: 'Signika', sans-serif;}
+
+h1{
+    font-size: 45px;
+    margin-left: 10px;
+    text-align: left;}
+    @media (max-width:576px){
+    #logopag{
+        width: 130px;}
+h2{font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    }}
+h3{     color:white;
+        background-color:rgb(26, 105, 86);
+        padding: 10px 15px;}
