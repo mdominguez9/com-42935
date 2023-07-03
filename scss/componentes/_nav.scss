@@ -10,14 +10,11 @@
     padding: 0;
         li:hover{
         transition: all 1.1s;    
-        transform: scale(1.5);
-       
-        }    
+        transform: scale(1.5);}    
         img{  
         width: clamp(6.5rem, 10vw, 11rem) ;
         padding: 3px;
-        margin: 0;
-        }}
+        margin: 0; }}
    
     .logolistahuapi{
         grid-area: loghua;
@@ -39,10 +36,7 @@
         grid-template-areas: 
         "loglan loghua"
         "loggla logtdf"; }
-    img {
-        width: 150px;
-        margin: 0;}
-    }
+        }
     .nav-linkactive{
         text-decoration: underline;
         text-shadow: 30%;}

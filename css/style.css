@@ -248,10 +248,6 @@ ul {
     padding: 0px;
     grid-template-areas: "loglan loghua" "loggla logtdf";
   }
-  img {
-    width: 150px;
-    margin: 0;
-  }
 }
 .nav-linkactive {
   text-decoration: underline;
