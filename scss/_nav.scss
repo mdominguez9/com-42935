@@ -5,12 +5,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    img{
-        
-        width: clamp(6.5rem, 13vw, 11rem) ;
+        img{  
+        width: clamp(10rem, 13vw, 11rem) ;
         padding: 10px;
         margin: 0;}
-        }
+       }
 
     
     .logolistahuapi{
@@ -34,7 +33,7 @@
         grid-template-areas: 
         "loglan loghua"
         "loggla logtdf"; }
-    img{
+    img .listalogos{
         width: 150px;
         margin: 0;}
     }
