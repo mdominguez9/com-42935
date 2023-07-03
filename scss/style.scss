@@ -1,8 +1,10 @@
 @import "./componentes/html";
-@import "./componentes/extend";
+@import "./abstract/variables";
+@import "./abstract/listas";
+@import "./abstract/extend";
 @import "./componentes/body";
-@import "nav";
-@import "mixin";
+@import "./componentes/nav";
+@import "./abstract/mixin";
 @import "./componentes/google-maps";
 @import "./componentes/footer";
 @import "./componentes/carrusel";

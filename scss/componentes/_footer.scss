@@ -1,11 +1,24 @@
 footer{ 
-    background-color: aliceblue;
+    background-color: $cl-navfoot_3;
     align-items: center;
-    text-align: center;
-    
-      }
+    text-align: center;}
+    .footcolor1{
+      background-color: nth($colores, 2);
+    }
+    .footcolor2{
+      background-color: nth($colores, 3);
+    }
+    .footcolor3{
+      background-color: nth($colores, 4);
+    }
+    .footcolor4{
+      background-color: nth($colores, 5);
+    }
+
+
+
 ul{
       margin-top: 15px;
       place-items: center;
-      gap: 20px; }
+      gap: 20px; } 
 

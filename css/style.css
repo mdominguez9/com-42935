@@ -163,6 +163,10 @@ h3 {
   background-image: url(../img/background/tierradelfuegoback.jpg);
 }
 
+.nav-color {
+  background-color: aliceblue;
+}
+
 .listalogos {
   display: flex;
   flex-direction: row;
@@ -223,9 +227,25 @@ a:hover {
 }
 
 footer {
-  background-color: aliceblue;
+  background-color: rgb(204, 232, 243);
   align-items: center;
   text-align: center;
+}
+
+.footcolor1 {
+  background-color: rgb(179, 193, 207);
+}
+
+.footcolor2 {
+  background-color: rgb(172, 172, 172);
+}
+
+.footcolor3 {
+  background-color: rgb(215, 215, 250);
+}
+
+.footcolor4 {
+  background-color: rgb(139, 151, 167);
 }
 
 ul {
