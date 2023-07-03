@@ -8,12 +8,17 @@
     list-style: none;
     margin: 0;
     padding: 0;
+        li:hover{
+        transition: all 1.1s;    
+        transform: scale(1.4);
+       
+        }    
         img{  
         width: clamp(6.5rem, 10vw, 11rem) ;
         padding: 3px;
-        margin: 0;}
-    }
-    
+        margin: 0;
+        }}
+   
     .logolistahuapi{
         grid-area: loghua;
     }
@@ -25,7 +30,6 @@
     }
     
     @media (max-width:576px){
-    
         .listalogos{
         display: grid;
         grid-template-columns: 1fr 1fr; 
@@ -35,14 +39,16 @@
         grid-template-areas: 
         "loglan loghua"
         "loggla logtdf"; }
-    img .listalogos{
+    img {
         width: 150px;
         margin: 0;}
     }
     .nav-linkactive{
         text-decoration: underline;
         text-shadow: 30%;}
-    a:hover{
-        text-decoration: underline;}
-    .container-fluid-main {
-        align-items: center;}
+        a:hover{
+        text-decoration: underline;
+        font-weight:500;
+        transition: all 1s;
+        transform: scale(1.1);}
+        

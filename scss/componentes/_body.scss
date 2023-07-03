@@ -1,3 +1,4 @@
+body{background-color: rgba(160, 99, 30, 0.13);}
 .tituloyvideo{
     display: flex;
     flex-direction: row;
@@ -63,7 +64,7 @@
       height: 100%;} 
     
       .transiciones:hover{
-        transition: all;
+        transition: all 1.7s;
         transform: scale(1.1);
     }
    
