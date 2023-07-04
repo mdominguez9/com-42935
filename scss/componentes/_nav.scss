@@ -1,6 +1,8 @@
 .nav-color{
     background-color: aliceblue;
 }
+.nav-color1,.nav-color2,.nav-color3,.nav-color4 {background-color:$colornav}
+
 .listalogos{
     display: flex;
     flex-direction: row;
