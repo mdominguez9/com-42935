@@ -7,9 +7,12 @@ html {
 }
 
 h1 {
-  font-size: 45px;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-weight: 500;
   margin-left: 10px;
-  text-align: left;
+  text-align: center;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -53,11 +56,31 @@ body {
   background-color: rgba(160, 99, 30, 0.13);
 }
 
-.tituloyvideo {
+.titlan {
+  background-image: url(../img/lanintit.jpg);
+}
+
+.tithua {
+  background-image: url(../img/nahutit.jpg);
+}
+
+.tittdf {
+  background-image: url(../img/tdftit.jpg);
+}
+
+.titgla {
+  background-image: url(../img/glatit.jpg);
+}
+
+.tituloyvideo, .titlan, .tithua, .titgla, .tittdf {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 20px;
+  align-content: center;
+  text-align: left;
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 576px) {
@@ -98,10 +121,12 @@ body {
   width: 46%;
 }
 
-.titulos {
+.titulos, .titlan .tithua, .titgla, .tittdf {
   display: flex;
   flex-direction: row;
+  align-content: center;
   align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 576px) {

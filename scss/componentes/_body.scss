@@ -1,9 +1,19 @@
 body{background-color: rgba(160, 99, 30, 0.13);}
-.tituloyvideo{
+
+.titlan{background-image: nth($imagenesback, 1)}
+.tithua{background-image: nth($imagenesback, 2)}
+.tittdf{background-image: nth($imagenesback, 4)}
+.titgla{background-image: nth($imagenesback, 3)}
+.tituloyvideo, .titlan, .tithua, .titgla, .tittdf{
     display: flex;
     flex-direction: row;
     align-items:center;
-    padding-bottom: 20px;}
+    align-content: center;
+    text-align: left;
+    padding: 20px 20px;
+    background-repeat:no-repeat;
+    background-size: cover}
+
    @media (max-width:576px){
     .tituloyvideo{
         display:flex;
@@ -15,6 +25,7 @@ body{background-color: rgba(160, 99, 30, 0.13);}
     .textoindex{
         width:100% !important;
         font-size: 13px;} }
+    
 .videoapn{
   position: relative;
   overflow: hidden;
@@ -37,10 +48,15 @@ body{background-color: rgba(160, 99, 30, 0.13);}
     width: 46%;
     @extend %textosin
 }
-.titulos{
-    display:flex;
+
+.titulos, .titlan .tithua, .titgla, .tittdf
+{   display:flex;
     flex-direction: row;
-    align-items: center;}
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
     @media (max-width: 576px) { 
     h1{ width:70%;
         align-self: auto;

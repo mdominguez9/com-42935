@@ -2,10 +2,13 @@ html{
     font-family: 'Signika', sans-serif;}
 #tdf{font-family: 'Signika', sans-serif;}
 
-h1{
-    font-size: 45px;
+h1{ 
+    color:rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: 500;
     margin-left: 10px;
-    text-align: left;}
+    text-align: center;
+    align-items: center;}
     @media (max-width:576px){
     #logopag{
         width: 130px;}
