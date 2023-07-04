@@ -79,6 +79,7 @@ body {
   align-content: center;
   text-align: left;
   padding-top: 20px;
+  padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -208,6 +209,12 @@ footer {
   text-align: center;
 }
 
+footer ul {
+  margin-top: 15px;
+  place-items: center;
+  gap: 20px;
+}
+
 .footcolor1 {
   background-color: rgb(179, 193, 207);
 }
@@ -222,12 +229,6 @@ footer {
 
 .footcolor4 {
   background-color: rgb(243, 243, 243);
-}
-
-ul {
-  margin-top: 15px;
-  place-items: center;
-  gap: 20px;
 }
 
 .nav-color {

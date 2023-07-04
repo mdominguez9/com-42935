@@ -2,6 +2,11 @@ footer{
     background-color: nth($colores, 1);
     align-items: center;
     text-align: center;}
+    footer ul{
+      margin-top:  map-get($foot-specs, margenarriba);
+      place-items: map-get($foot-specs, ubicacion);
+      gap:         map-get($foot-specs, gap)}
+    
     .footcolor1{
       background-color: nth($colores, 2);
     }
@@ -14,8 +19,5 @@ footer{
     .footcolor4{
       background-color: nth($colores, 5);
     }
-ul{
-      margin-top: 15px;
-      place-items: center;
-      gap: 20px; } 
+    
 
