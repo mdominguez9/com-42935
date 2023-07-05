@@ -4,7 +4,7 @@ body{background-color: rgba(160, 99, 30, 0.13);}
 .tithua{background-image: nth($imagenesback, 2)}
 .tittdf{background-image: nth($imagenesback, 4)}
 .titgla{background-image: nth($imagenesback, 3)}
-.tituloyvideo, .titlan, .tithua, .titgla, .tittdf{
+.tituloyvideo{
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -14,6 +14,8 @@ body{background-color: rgba(160, 99, 30, 0.13);}
     padding-bottom: 20px;
     background-repeat:no-repeat;
     background-size: cover}
+    .titlan, .tithua, .titgla, .tittdf{
+        @extend %titulos1}
 
    @media (max-width:576px){
     .tituloyvideo{
@@ -52,10 +54,10 @@ body{background-color: rgba(160, 99, 30, 0.13);}
 
 .titulos, .titlan .tithua, .titgla, .tittdf
 {   display:flex;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    align-content: baseline;
     }
 
     @media (max-width: 576px) { 

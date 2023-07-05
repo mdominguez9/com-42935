@@ -12,3 +12,15 @@
 %bodypags{
     background-repeat: no-repeat;
     background-size: cover;}
+
+%titulos1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    text-align: left;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    background-repeat:no-repeat;
+    background-size: cover
+}
