@@ -19,5 +19,10 @@
     .footcolor4{
       background-color: nth($colores, 5);
     }
-    
+   
+    .colorformarriba{background-color:rgba(1, 71, 66, 0.829) }
+    .boton__form{
+      background-color:nth($colores,3);
+      width: 100%;}
+  
 

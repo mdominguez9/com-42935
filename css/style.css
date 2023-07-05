@@ -248,6 +248,15 @@ footer ul {
   background-color: rgb(243, 243, 243);
 }
 
+.colorformarriba {
+  background-color: rgba(1, 71, 66, 0.829);
+}
+
+.boton__form {
+  background-color: rgb(172, 172, 172);
+  width: 100%;
+}
+
 .nav-color {
   background-color: aliceblue;
 }
