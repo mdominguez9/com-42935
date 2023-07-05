@@ -1,7 +1,7 @@
-footer{ 
-    background-color: nth($colores, 1);
-    align-items: center;
-    text-align: center;}
+    footer{ 
+      background-color: nth($colores, 1);
+      align-items: center;
+      text-align: center;}
     footer ul{
       margin-top:  map-get($foot-specs, margenarriba);
       place-items: map-get($foot-specs, ubicacion);
